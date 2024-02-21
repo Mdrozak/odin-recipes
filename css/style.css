@@ -18,3 +18,9 @@ body {
     width: 220px;
 
 }
+
+#recipe-pic {
+    width: auto;
+    height: 500px;
+    
+}
