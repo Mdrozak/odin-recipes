@@ -24,3 +24,37 @@ body {
     height: 500px;
     
 }
+
+.description {
+    font-size: 35px;
+    text-align: center;
+    color: teal;
+    background-color: crimson;
+}
+
+.para {
+    font-size: 25px;
+    text-align: center;
+    color: yellow;
+    background-color: chocolate;
+    text-emphasis: 10;
+}
+
+.uno-list {
+    background-color: yellowgreen;
+    font-weight: 1000;
+    width: 300px;
+    font-size: 23px;
+
+}
+
+.justif {
+    text-align: left;
+    width: 400px;
+}
+
+.ono-list {
+    background-color: steelblue;
+    color: chartreuse;
+    font-size: 23px;
+}
