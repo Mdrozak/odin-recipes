@@ -16,7 +16,6 @@ body {
     color: brown;
     background-color: rgb(15, 42, 124);
     width: auto;
-    height: 100px auto;
     text-align: center;
 
 }
@@ -40,8 +39,8 @@ body {
 }
 
 #recipe-pic {
-    width: auto;
-    height: 500px;
+    width: 500px;
+    height: auto;
     
 }
 
@@ -58,23 +57,38 @@ body {
     color: yellow;
     background-color: chocolate;
     text-emphasis: 10;
+    margin: 0;
+    padding: 10px;
 }
 
 .uno-list {
+    text-align: center;
     background-color: yellowgreen;
     font-weight: 1000;
-    width: 300px;
+    width: auto;
+    padding: 0px;
     font-size: 23px;
-
 }
 
 .justif {
-    text-align: left;
-    width: 400px;
+    text-align: center;
+    width: 500px;
 }
 
 .ono-list {
     background-color: steelblue;
     color: chartreuse;
     font-size: 23px;
+}
+
+
+.ing-list, li {
+    padding: 5px 0px;
+}
+
+.recipe-part {
+    font-size: 30px;
+    font-style: italic;
+    color: azure;
+    margin: 15px 0px 0px 0px;
 }
