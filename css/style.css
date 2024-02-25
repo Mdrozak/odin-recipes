@@ -1,5 +1,14 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    height: 900px;
+    width: 1800;
+    background-color: black;
+}
+
+.main {
+    width: 500px;
+    display: block;
+    margin: auto;
 }
 
 .header {
@@ -7,7 +16,7 @@ body {
     color: brown;
     background-color: rgb(15, 42, 124);
     width: auto;
-    height: 150px;
+    height: 100px auto;
     text-align: center;
 
 }
@@ -15,8 +24,11 @@ body {
 .recipe-list {
     background-color: yellowgreen;
     font-size: 36px;
-    width: 220px;
-
+    width: auto;
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
 }
 
 #recipe-pic {
