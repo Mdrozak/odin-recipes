@@ -31,6 +31,14 @@ body {
     padding: 0;
 }
 
+.main-recipe-link {
+    height: 3em;
+    width: 15em;
+    margin: 10px;
+    border-color: blue;
+    font-size: 25px;
+}
+
 #recipe-pic {
     width: auto;
     height: 500px;
